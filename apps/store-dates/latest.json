@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "app_id": "store-dates",
+  "version": "1.0.0",
+  "minimum_supported_version": "1.0.0",
+  "released_at": "2026-08-25T13:00:00Z",
+  "release_notes": "Baseline manifest for the initial Store Dates deployment. Version 1.0.0 is installed with the tested manual cPanel package; this baseline metadata is intentionally not an automatic update package.",
+  "release_url": "https://github.com/ScareCrow2555/viableupdates/releases/tag/store-dates-v1.0.0",
+  "asset_url": "https://github.com/ScareCrow2555/viableupdates/releases/download/store-dates-v1.0.0/store-dates-1.0.0.vfu",
+  "asset_encryption": "xchacha20poly1305-secretstream",
+  "encrypted_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "plaintext_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "key_id": "store-dates-prod-1",
+  "requires_migrations": false,
+  "requires_source_sync": false,
+  "update_mode": "manual_required",
+  "critical": false
+}
