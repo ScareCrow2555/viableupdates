@@ -14,6 +14,10 @@ apps/
     latest.json
     releases/
       <version>.json
+  store-dates/
+    latest.json
+    releases/
+      <version>.json
   news/
     README.md
 ```
@@ -38,6 +42,14 @@ Application ID: `job-board`
 Manifest: `apps/job-board/latest.json`
 
 The baseline `1.1.0` manifest establishes version tracking while the browser updater is bootstrapped manually. It is intentionally marked `manual_required` and its placeholder release hashes are not an installable package. The first later automatic release will replace `latest.json` only after its encrypted GitHub Release asset is successfully published.
+
+### Store Dates
+
+Application ID: `store-dates`
+
+Manifest: `apps/store-dates/latest.json`
+
+The baseline `1.0.0` manifest tracks the initial manual cPanel deployment. It is intentionally marked `manual_required`; the all-zero hashes are non-installable placeholder metadata. Future automatic releases are published only after a real encrypted `.vfu` release asset has been created and verified.
 
 ### News
 
